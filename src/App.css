@@ -1,0 +1,148 @@
+.App {
+  width: 440px;
+  padding: 10px 0;
+  margin: 50px auto;
+
+  text-align: center;
+}
+
+.inputArea {
+  width: 426px;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  background: orange;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.stek {
+  margin: 5px;
+  padding: 10px 0;
+  height: 30px;
+  border: 2px black solid;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.calculator {
+  width: 440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 5px;
+  grid-template-areas: 
+    'seven eight nine c division equal'
+    'four five six ce multiplication equal'
+    'one two three procent subtraction equal'
+    'zero inverse-fraction fraction sqrt addition equal'
+  ;
+}
+
+.grid-item {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  text-align: center;
+  font-size: 1.1em;
+  color: white;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.grid-item:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.grid-item:active {
+  background-color: purple;
+  color: black;
+}
+
+.seven {
+  grid-area: seven;
+  background-color: #bbb;
+}
+
+.eight {
+  grid-area: eight;
+  background-color: #bbb;
+}
+.nine {
+  grid-area: nine;
+  background-color: #bbb;
+}
+.c {
+  grid-area: c;
+  background-color: #bbb;
+}
+.division {
+  grid-area: division;
+  background-color: #bbb;
+}
+.equal {
+  grid-area: equal;
+  background-color: #bbb;
+}
+.four {
+  grid-area: four;
+  background-color: #bbb;
+}
+.five {
+  grid-area: five;
+  background-color: #bbb;
+}
+.six {
+  grid-area: six;
+  background-color: #bbb;
+}
+.ce {
+  grid-area: ce;
+  background-color: #bbb;
+}
+.multiplication {
+  grid-area: multiplication;
+  background-color: #bbb;
+}
+.one {
+  grid-area: one;
+  background-color: #bbb;
+}
+.two {
+  grid-area: two;
+  background-color: #bbb;
+}
+.three {
+  grid-area: three;
+  background-color: #bbb;
+}
+.procent {
+  grid-area: procent;
+  background-color: #bbb;
+}
+.subtraction {
+  grid-area: subtraction;
+  background-color: #bbb;
+}
+.zero {
+  grid-area: zero;
+  background-color: #bbb;
+}
+.inverse-fraction {
+  grid-area: inverse-fraction;
+  background-color: #bbb;
+}
+.fraction {
+  grid-area: fraction;
+  background-color: #bbb;
+}
+.sqrt {
+  grid-area: sqrt;
+  background-color: #bbb;
+}
+.addition {
+  grid-area: addition;
+  background-color: #bbb;
+}
